@@ -1,5 +1,4 @@
 package pe.edu.upc.pc02;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
