@@ -18,4 +18,8 @@ public class ProductoController {
                 String.format("Producto registrado con ID: %d", guardado.getId())
         );
     }
+    @GetMapping
+    public ResponseEntity<?> listarProductos() {
+        return ResponseEntity.ok(productoRepository.findAll());
+    }
 }
